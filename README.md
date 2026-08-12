@@ -10,7 +10,7 @@ Dieses Projekt analysiert die Datenbank des brasilianischen Online-Marktplatzes 
 
 ## 📊 Datensatz & Quellen
 
-* **Quelle :** Magist Brazilian E-Commerce Dataset (`magist_dump.sql`) / Kaggle / Eniac Project
+* **Quelle :** [Magist E-Commerce Datenbank (SQL Dump)](https://drive.google.com/file/d/1QCef_bZg0miKvi69gyhdtkzVCWm83Or3/view?usp=sharing)
 * **Größe :** 99.441 Bestellungen, 3.095 Verkäufer und über 110.000 Transaktionsdatensätze im Zeitraum von **September 2016 bis Oktober 2018** (25 Monate)
 * **Hauptmerkmale :** Bestelldatum, Lieferstatus, Produktkategorien, Preise, Verkäufer-IDs und Kundenbewertungen
 * **Anmerkungen :** Definition von 9 Kern-Technologiekategorien zur Filterung des relevanten Eniac-Sortiments (u. a. *Telefonia, Informatica Acessorios, Audio, Eletronicos*).
@@ -30,7 +30,7 @@ Dieses Projekt analysiert die Datenbank des brasilianischen Online-Marktplatzes 
 
 ## 🛠️ Verwendete Technologien
 
-* **Datenbanken & Abfragen :** MySQL Workbench / SQL (`magist_dump.sql` & `script.sql`)
+* **Datenbanken & Abfragen :** MySQL Workbench / SQL (`script.sql`)
 * **Datenanalyse :** Microsoft Excel *(siehe `Eniac_Analysis.xlsx`)*
 * **Visualisierung :** Tableau Public (Free Version) *(Dashboard)*
 * **Präsentation :** Google Slides / PDF *(siehe `presentation.pdf`)*
@@ -40,7 +40,7 @@ Dieses Projekt analysiert die Datenbank des brasilianischen Online-Marktplatzes 
 ## 📂 Projektstruktur
 
 ```text
-├── data/                  # Rohdaten-Dump (magist_dump.sql) & Excel-Tabellen
+├── data/                  # Excel-Analysetabellen
 ├── sql/                   # Konsolidierte SQL-Abfragen (script.sql)
 ├── presentation/          # Finale Präsentation als PDF (presentation.pdf)
 └── README.md              # Projektdokumentation
