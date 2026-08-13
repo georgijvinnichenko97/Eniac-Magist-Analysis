@@ -28,10 +28,6 @@ This project analyzes the database of the Brazilian online marketplace **Magist*
    * **Critical Factor:** For on-time deliveries, the average rating is **4.28 stars**, but for delays, it plummets massively to **2.29 stars** (a drop of almost 2 stars).
 4. **Business Impact:** An uncontrolled, nationwide launch poses reputation risks due to regional delivery disparities (8.7 days in São Paulo vs. up to 29.5 days in remote regions).
 
-### 📈 Visualizing the Impact
-
-*(Insert your visualization here by uploading an image to GitHub and replacing `image_link.png` with the URL)*
-`![Delivery Times vs Ratings](image_link.png)`
 
 ---
 
