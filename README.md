@@ -46,3 +46,30 @@ This project analyzes the database of the Brazilian online marketplace **Magist*
 ├── README.md             # Project documentation and summary
 ├── presentation.pdf      # Final presentation slides with decision base
 └── script.sql            # Consolidated SQL queries for data extraction
+
+🔗 How to Use This Project
+Load Database: Download the SQL dump here: Magist E-Commerce Database and import it into MySQL.
+
+Main Analysis: The complete SQL code for data extraction can be found in script.sql.
+
+Review Results: The final presentation can be viewed online via Google Slides or inside the repository via presentation.pdf.
+
+Visualizations: The dashboard created via Tableau Public interactively illustrates delivery times and categories.
+
+🚀 Future Work
+Real-time Logistics Tracking: Implementation of a live dashboard to monitor regional logistics SLAs.
+
+A/B Testing: Testing different shipping providers in pilot regions like São Paulo to further reduce delivery times.
+
+Advanced Customer Segmentation: Analysis of repeat buyer rates (currently only around 3%).
+
+👥 Contact / Team
+Andreas Kunz – Analytics & Research
+
+Georgij Vinnichenko – Analytics & Research
+
+Giovanni – Analytics & Research
+
+Mehrnoosh – Analytics & Research
+
+Tim – Analytics & Research
