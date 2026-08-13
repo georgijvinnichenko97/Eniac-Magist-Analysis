@@ -1,46 +1,53 @@
-# 🇧🇷 Eniac-Marktexpansion nach Brasilien – E-Commerce-Datenanalyse mittels SQL und Tableau
+# 🇧🇷 Eniac Market Expansion to Brazil – E-Commerce Data Analysis using SQL and Tableau
 
 ---
 
-## 🎯 Projektübersicht
+## 🎯 Project Overview
 
-Dieses Projekt analysiert die Datenbank des brasilianischen Online-Marktplatzes **Magist**, um zu bewerten, ob eine Partnerschaft für die Expansion des europäischen Apple-Spezialisten **Eniac** geeignet ist. Mithilfe von relationalen SQL-Datenabfragen und visuellen Analysen konnte ein **bedingtes Go (regionaler Pilot)** identifiziert werden, das das Expansionsrisiko minimiert und die Kundenzufriedenheit absichert.
+This project analyzes the database of the Brazilian online marketplace **Magist** to evaluate whether a partnership is suitable for the expansion of the European Apple specialist **Eniac** into the Brazilian market. Using SQL data queries and visual analyses, a **conditional go (regional pilot)** was identified, minimizing expansion risks and ensuring customer satisfaction. 
 
----
-
-## 📊 Datensatz & Quellen
-
-* **Quelle :** [Magist E-Commerce Datenbank (SQL Dump)](https://drive.google.com/file/d/1QCef_bZg0miKvi69gyhdtkzVCWm83Or3/view?usp=sharing)
-* **Größe :** 99.441 Bestellungen, 3.095 Verkäufer und über 110.000 Transaktionsdatensätze im Zeitraum von **September 2016 bis Oktober 2018** (25 Monate)
-* **Hauptmerkmale :** Bestelldatum, Lieferstatus, Produktkategorien, Preise, Verkäufer-IDs und Kundenbewertungen
-* **Anmerkungen :** Definition von 9 Kern-Technologiekategorien zur Filterung des relevanten Eniac-Sortiments (u. a. *Telefonia, Informatica Acessorios, Audio, Eletronicos*).
+👉 **[View Final Presentation here](presentation.pdf)**
 
 ---
 
-## 🚀 Wichtigste Erkenntnisse und Ergebnisse
+## 📊 Dataset & Sources
 
-1. **Tech-Sortiment & Relevanz :** Tech-Produkte machen **14 % des Gesamtumsatzes** (€441.452) aus; 16 % aller Verkäufer (486 von 3.095) sind im Tech-Bereich aktiv.
-2. **High-End-Nachfrage :** Die Kategorie *Computers* weist einen hohen Durchschnittspreis von **254,84 €** auf, jedoch ist die Nachfrage monatlich stark schwankend (in 12 von 25 Monaten gab es keinen Umsatz).
-3. **Logistikrisiko & Kundenbewertung :** 
-   * Die Liefertreue liegt bei starken **93,08 %** (Ø Lieferzeit: 12,5 Tage).
-   * **Kritischer Faktor:** Bei pünktlichen Lieferungen liegt die Bewertung bei **4,28 Sternen**, bei Verzögerungen bricht sie massiv auf **2,29 Sterne** ein (ein Verlust von fast 2 Sternen).
-4. **Geschäftliche Auswirkungen :** Ein unkontrollierter, landesweiter Start birgt Reputationsrisiken durch regionale Lieferunterschiede (8,7 Tage in São Paulo vs. bis zu 29,5 Tage in abgelegenen Regionen).
+* **Source:** [Magist E-Commerce Database (SQL Dump)](https://drive.google.com/file/d/1QCef_bZg0miKvi69gyhdtkzVCWm83Or3/view?usp=sharing)
+* **Size:** 99,441 orders, 3,095 sellers, and over 110,000 transaction records between **September 2016 and October 2018** (25 months).
+* **Key Features:** Order dates, delivery status, product categories, pricing, seller IDs, and customer reviews.
+* **Notes:** Defined 9 core technology categories to filter the relevant Eniac assortment (e.g., *Telefonia, Informatica Acessorios, Audio, Eletronicos*).
 
 ---
 
-## 🛠️ Verwendete Technologien
+## 🚀 Key Insights and Results
 
-* **Datenbanken & Abfragen :** MySQL Workbench / SQL (`script.sql`)
-* **Datenanalyse :** Microsoft Excel *(siehe `Eniac_Analysis.xlsx`)*
-* **Visualisierung :** Tableau Public (Free Version) *(Dashboard)*
-* **Präsentation :** Google Slides / PDF *(siehe `presentation.pdf`)*
+1. **Tech Assortment & Relevance:** Tech products account for **14% of total revenue** (€441,452); 16% of all sellers (486 out of 3,095) are active in the tech sector.
+2. **High-End Demand:** The *Computers* category has a high average price of **€254.84**, but monthly demand fluctuates heavily (no revenue in 12 out of 25 months).
+3. **Logistics Risk & Customer Reviews:** 
+   * Delivery reliability is strong at **93.08%** (Avg. delivery time: 12.5 days).
+   * **Critical Factor:** For on-time deliveries, the average rating is **4.28 stars**, but for delays, it plummets massively to **2.29 stars** (a drop of almost 2 stars).
+4. **Business Impact:** An uncontrolled, nationwide launch poses reputation risks due to regional delivery disparities (8.7 days in São Paulo vs. up to 29.5 days in remote regions).
+
+### 📈 Visualizing the Impact
+
+*(Insert your visualization here by uploading an image to GitHub and replacing `image_link.png` with the URL)*
+`![Delivery Times vs Ratings](image_link.png)`
 
 ---
 
-## 📂 Projektstruktur
+## 🛠️ Technologies Used
+
+* **Database & Queries:** MySQL Workbench / SQL ➔ [View script.sql](script.sql)
+* **Data Analysis:** Microsoft Excel ➔ [View Eniac_Analysis.xlsx](Eniac_Analysis.xlsx)
+* **Visualization:** Tableau Public (Free Version)
+* **Presentation:** Google Slides / PDF ➔ [View presentation.pdf](presentation.pdf)
+
+---
+
+## 📂 Project Structure
 
 ```text
-├── data/                  # Excel-Analysetabellen
-├── sql/                   # Konsolidierte SQL-Abfragen (script.sql)
-├── presentation/          # Finale Präsentation als PDF (presentation.pdf)
-└── README.md              # Projektdokumentation
+├── Eniac_Analysis.xlsx   # Excel workbook containing data analysis and insights
+├── README.md             # Project documentation and summary
+├── presentation.pdf      # Final presentation slides with decision base
+└── script.sql            # Consolidated SQL queries for data extraction
