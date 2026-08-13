@@ -6,7 +6,7 @@
 
 This project analyzes the database of the Brazilian online marketplace **Magist** to evaluate whether a partnership is suitable for the expansion of the European Apple specialist **Eniac** into the Brazilian market. Using SQL data queries and visual analyses, a **conditional go (regional pilot)** was identified, minimizing expansion risks and ensuring customer satisfaction. 
 
-👉 **[View Final Presentation here](presentation.pdf)**
+👉 **[View Final Presentation (PDF)](presentation.pdf)** or **[View Online Presentation (Google Slides)](https://docs.google.com/presentation/d/1qPyVpXPplj45q4xV1Fp3n3EpnqAq4yei/edit?usp=sharing)**
 
 ---
 
