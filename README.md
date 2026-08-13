@@ -12,30 +12,30 @@ This project analyzes the database of the Brazilian online marketplace **Magist*
 
 ## 📊 Dataset & Sources
 
-* **Source:** [Magist E-Commerce Database (SQL Dump)](https://drive.google.com/file/d/1QCef_bZg0miKvi69gyhdtkzVCWm83Or3/view?usp=sharing)[cite: 1]
-* **Size:** 99,441 orders, 3,095 sellers, and over 110,000 transaction records between **September 2016 and October 2018** (25 months)[cite: 1].
-* **Key Features:** Order dates, delivery status, product categories, pricing, seller IDs, and customer reviews[cite: 1].
-* **Notes:** Defined 9 core technology categories to filter the relevant Eniac assortment (e.g., *Telefonia, Informatica Acessorios, Audio, Eletronicos*)[cite: 1].
+* **Source:** [Magist E-Commerce Database (SQL Dump)](https://drive.google.com/file/d/1QCef_bZg0miKvi69gyhdtkzVCWm83Or3/view?usp=sharing)
+* **Size:** 99,441 orders, 3,095 sellers, and over 110,000 transaction records between **September 2016 and October 2018** (25 months).
+* **Key Features:** Order dates, delivery status, product categories, pricing, seller IDs, and customer reviews.
+* **Notes:** Defined 9 core technology categories to filter the relevant Eniac assortment (e.g., *Telefonia, Informatica Acessorios, Audio, Eletronicos*).
 
 ---
 
 ## 🚀 Key Insights and Results
 
-1. **Tech Assortment & Relevance:** Tech products account for **14% of total revenue** (€441,452); 16% of all sellers (486 out of 3,095) are active in the tech sector[cite: 1].
-2. **High-End Demand:** The *Computers* category has a high average price of **€254.84**, but monthly demand fluctuates heavily (no revenue in 12 out of 25 months)[cite: 1].
+1. **Tech Assortment & Relevance:** Tech products account for **14% of total revenue** (€441,452); 16% of all sellers (486 out of 3,095) are active in the tech sector.
+2. **High-End Demand:** The *Computers* category has a high average price of **€254.84**, but monthly demand fluctuates heavily (no revenue in 12 out of 25 months).
 3. **Logistics Risk & Customer Reviews:** 
-   * Delivery reliability is strong at **93.08%** (Avg. delivery time: 12.5 days)[cite: 1].
-   * **Critical Factor:** For on-time deliveries, the average rating is **4.28 stars**, but for delays, it plummets massively to **2.29 stars** (a drop of almost 2 stars)[cite: 1].
-4. **Business Impact:** An uncontrolled, nationwide launch poses reputation risks due to regional delivery disparities (8.7 days in São Paulo vs. up to 29.5 days in remote regions)[cite: 1].
+   * Delivery reliability is strong at **93.08%** (Avg. delivery time: 12.5 days).
+   * **Critical Factor:** For on-time deliveries, the average rating is **4.28 stars**, but for delays, it plummets massively to **2.29 stars** (a drop of almost 2 stars).
+4. **Business Impact:** An uncontrolled, nationwide launch poses reputation risks due to regional delivery disparities (8.7 days in São Paulo vs. up to 29.5 days in remote regions).
 
 ---
 
 ## 🛠️ Technologies Used
 
-* **Database & Queries:** MySQL Workbench / SQL ➔ [View script.sql](script.sql)[cite: 5]
-* **Data Analysis:** Microsoft Excel ➔ [View Eniac_Analysis.xlsx](Eniac_Analysis.xlsx)[cite: 1]
+* **Database & Queries:** MySQL Workbench / SQL ➔ [View script.sql](script.sql)
+* **Data Analysis:** Microsoft Excel ➔ [View Eniac_Analysis.xlsx](Eniac_Analysis.xlsx)
 * **Visualization:** Tableau Public (Free Version)
-* **Presentation:** Google Slides / PDF ➔ [View presentation.pdf](presentation.pdf)[cite: 1]
+* **Presentation:** Google Slides / PDF ➔ [View presentation.pdf](presentation.pdf)
 
 ---
 
@@ -46,30 +46,31 @@ This project analyzes the database of the Brazilian online marketplace **Magist*
 ├── README.md             # Project documentation and summary
 ├── presentation.pdf      # Final presentation slides with decision base
 └── script.sql            # Consolidated SQL queries for data extraction
+```
 
-🔗 How to Use This Project
-Load Database: Download the SQL dump here: Magist E-Commerce Database and import it into MySQL.
+---
 
-Main Analysis: The complete SQL code for data extraction can be found in script.sql.
+## 🔗 How to Use This Project
 
-Review Results: The final presentation can be viewed online via Google Slides or inside the repository via presentation.pdf.
+1. **Load Database:** Download the SQL dump here: [Magist E-Commerce Database](https://drive.google.com/file/d/1QCef_bZg0miKvi69gyhdtkzVCWm83Or3/view?usp=sharing) and import it into MySQL.
+2. **Main Analysis:** The complete SQL code for data extraction can be found in [`script.sql`](script.sql).
+3. **Review Results:** The final presentation can be viewed online via [Google Slides](https://docs.google.com/presentation/d/1qPyVpXPplj45q4xV1Fp3n3EpnqAq4yei/edit?usp=sharing) or inside the repository via [`presentation.pdf`](presentation.pdf).
+4. **Visualizations:** The dashboard created via Tableau Public interactively illustrates delivery times and categories.
 
-Visualizations: The dashboard created via Tableau Public interactively illustrates delivery times and categories.
+---
 
-🚀 Future Work
-Real-time Logistics Tracking: Implementation of a live dashboard to monitor regional logistics SLAs.
+## 🚀 Future Work
 
-A/B Testing: Testing different shipping providers in pilot regions like São Paulo to further reduce delivery times.
+* **Real-time Logistics Tracking:** Implementation of a live dashboard to monitor regional logistics SLAs.
+* **A/B Testing:** Testing different shipping providers in pilot regions like São Paulo to further reduce delivery times.
+* **Advanced Customer Segmentation:** Analysis of repeat buyer rates (currently only around 3%).
 
-Advanced Customer Segmentation: Analysis of repeat buyer rates (currently only around 3%).
+---
 
-👥 Contact / Team
-Andreas Kunz – Analytics & Research
+## 👥 Contact / Team
 
-Georgij Vinnichenko – Analytics & Research
-
-Giovanni – Analytics & Research
-
-Mehrnoosh – Analytics & Research
-
-Tim – Analytics & Research
+* **Andreas Kunz** – Analytics & Research
+* **Georgij Vinnichenko** – Analytics & Research
+* **Giovanni** – Analytics & Research
+* **Mehrnoosh** – Analytics & Research
+* **Tim** – Analytics & Research
