@@ -33,18 +33,18 @@ This project analyzes the database of the Brazilian online marketplace **Magist*
 ## 🛠️ Technologies Used
 
 * **Database & Queries:** MySQL Workbench / SQL ➔ [View script.sql](script.sql)
-* **Data Analysis:** Microsoft Excel ➔ [View Eniac_Analysis.xlsx](Eniac_Analysis.xlsx)
+* **Data Analysis:** Microsoft Excel ➔ [View Eniac Analysis.xlsx](Eniac%20Analysis.xlsx)
 * **Visualization:** Tableau Public (Free Version)
-* **Presentation:** Google Slides / PDF ➔ [View presentation.pdf](presentation.pdf)
+* **Presentation:** Google Slides / PDF ➔ [View presentation (PDF)](Eniac_Magist_Google_Slides_Optimiert%20%281%29.pptx%20%281%29.pdf)
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-├── Eniac_Analysis.xlsx   # Excel workbook containing data analysis and insights
+├── Eniac Analysis.xlsx   # Excel workbook containing data analysis and insights
 ├── README.md             # Project documentation and summary
-├── presentation.pdf      # Final presentation slides with decision base
+├── Eniac_Magist_Google_Slides_Optimiert (1).pptx (1).pdf   # Final presentation slides with decision base
 └── script.sql            # Consolidated SQL queries for data extraction
 ```
 
@@ -54,7 +54,7 @@ This project analyzes the database of the Brazilian online marketplace **Magist*
 
 1. **Load Database:** Download the SQL dump here: [Magist E-Commerce Database](https://drive.google.com/file/d/1QCef_bZg0miKvi69gyhdtkzVCWm83Or3/view?usp=sharing) and import it into MySQL.
 2. **Main Analysis:** The complete SQL code for data extraction can be found in [`script.sql`](script.sql).
-3. **Review Results:** The final presentation can be viewed online via [Google Slides](https://docs.google.com/presentation/d/1qPyVpXPplj45q4xV1Fp3n3EpnqAq4yei/edit?usp=sharing) or inside the repository via [`presentation.pdf`](presentation.pdf).
+3. **Review Results:** The final presentation can be viewed online via [Google Slides](https://docs.google.com/presentation/d/1qPyVpXPplj45q4xV1Fp3n3EpnqAq4yei/edit?usp=sharing) or inside the repository via [presentation (PDF)](Eniac_Magist_Google_Slides_Optimiert%20%281%29.pptx%20%281%29.pdf).
 4. **Visualizations:** The dashboard created via Tableau Public interactively illustrates delivery times and categories.
 
 ---
